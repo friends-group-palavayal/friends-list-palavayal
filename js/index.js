@@ -1,6 +1,6 @@
 
-const HOST = "https://lighthouse-user-api.herokuapp.com"
-const INDEX = HOST + '/api/v1/users'
+const HOST = "https://raw.githubusercontent.com/Did-Dog/MyClassMates/main/database"
+const INDEX = HOST + '/data.json'
 const friends = []
 let filteredFriend = []
 const friendsPanel = document.querySelector('#friends-list-panel')
